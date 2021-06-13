@@ -1,0 +1,132 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    background-color: black;
+}
+
+
+.left {
+    display: block;
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    width: 40%;
+    min-height: 100%;
+    background: url(../images/left_image4.jpg) no-repeat center center/cover;
+}
+
+.right {
+    display: block;
+    margin-left: 40%;
+   
+}
+
+#Topic_text{
+    margin: 10px;
+    padding: 15px;
+}
+#header_video{
+    width: 98%;
+    height: 65vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header_video video{
+    height: 65vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+footer ul li{
+    font-size: xx-large;
+    background-color: rgb(88, 88, 88);
+    padding: 20px;
+    border-radius: 20px;
+}
+.topic-heading{
+    font-family: 'Seymour One', sans-serif;
+    margin: 2px;
+    padding-top: 0px;
+    font-size: xx-large;
+}
+.Topic_text{
+    background-color: #7ed6df;
+    background-image: linear-gradient(317deg, #0a448c 0%, #000000 74%);
+    
+    padding: 30px;
+    margin: 30px 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: large;
+    color: #abccd9; 
+    border-radius: 25px;
+    text-align: center;
+}
+
+.Topic_text p a{
+  color: rgb(0, 247, 255);
+  text-decoration: none;
+}
+@media only screen and (max-width:1025px) {
+  .left{
+    display: none;
+  }
+  .right{
+    margin:0px;
+  }  
+  .category-name-box{
+    width: 100%;
+    font-size:xx-large;
+  }
+  #category-info{
+    font-size: 10px;
+    padding-top: 0rem;
+  }
+  
+  #header_video{
+    /* height: 30vh; */
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 2vw;
+  }
+  #header_video video{
+    height: 100%
+  }
+  .Topic_text{
+    margin: 15px 10px;
+  }
+        
+}
+@media only screen and (min-width:1025px) {
+  .left{
+    display: block;
+  }
+  .right{
+    margin-left: 40%;
+  }
+        
+        
+}

@@ -1,0 +1,78 @@
+.category-name-box{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 7rem;
+    padding: 25px 0px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+#category-info{
+    font-size: 2rem;
+    padding: 1rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+#category-name p{
+    margin: 0%;
+    padding: 0%;
+} 
+#category-info p{
+    padding-top: 1%;
+    /* text-shadow: 0 0 120px #03bcf4, */
+    width: 70%;
+    z-index: 2;
+    letter-spacing: 2px;
+    text-shadow: 1 1 2px whitesmoke;
+    text-shadow: 0 0 10px #03bcf4, 0 0 8px #03bcf4, 0 0 0px #03bcf4, 0 0 0px #03bcf4, 0 0 0px #03bcf4;
+
+    
+}
+#category-name p{
+    margin: 0%;
+    padding: 0%;
+    letter-spacing: 10px;
+    color: #024c69;
+    text-transform: uppercase;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+
+} 
+@keyframes animate{
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
+    {
+        color: #024c69;
+        text-shadow: 1 1 2px whitesmoke;
+        
+
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4
+
+    }
+}
+@media only screen and (max-width:1025px) {
+    .category-name-box{
+        font-size: xx-large;
+        width: 99%;
+    }
+    #category-info{
+    
+        font-size: small;
+    }
+    .topnav a{
+        font-size: 15px;
+    }
+    
+    
+}

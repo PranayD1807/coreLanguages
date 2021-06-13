@@ -1,0 +1,193 @@
+
+.left_cards{
+  width: 50%;
+  margin: 15px;
+  margin-top: 0px;
+  margin-right: 0vw;
+}
+.right_cards{
+  width: 50%;
+  margin: 15px;
+  margin-top: 0px;
+}
+.card{
+    /* margin: 10px; */
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    flex-direction: column;
+    /* width: 100%;  */
+    justify-content: start;  
+    /* margin-right: 10px; */
+    /* padding-right: 10px; */
+    margin-top: 15px;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 3px -4px 59px 0px rgba(0, 0, 0, 0.75) inset;
+    
+}
+.card .topic_name{
+    display: block;
+    font-size: 4rem;
+    margin: auto;
+    /* margin-bottom: 0%; */
+
+}
+
+
+.right_cards .card{
+  padding-right: 10px;
+}
+#card-1{
+    background-color: rgb(36 40 64);
+    padding: 0;
+    height: 200px;
+    /* border: 1px solid gray; */
+    border-radius: 20px;
+    /* width: 48%; */
+    transition: all 1.5s;
+    /* background-image: url('/images/moon.jpg'); */
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: right;
+
+}
+#card-1:hover{
+  height: 450px;
+}
+#card-1 button{
+    background-color: teal;
+}
+#card-1 button:hover{
+    background-color: rgb(231, 210, 171);
+    color: teal;
+    
+  }
+
+#card-2{
+    background-color: rgb(58 36 64);
+    padding: 0;
+    height: 300px;
+    transition: all 1.5s;
+}
+#card-2:hover{
+  height: 450px;
+}
+#card-2 button{
+    background-color: rgb(129 46 175);
+}
+#card-2 button:hover{
+    background-color: rgb(231, 210, 171);
+    color: rgb(129 46 175);
+  }
+
+#card-3{
+    background-color: rgb(36 40 64);
+    padding: 0;
+    height: 300px;
+    transition: all 1.5s;
+    /* width: 50%; */
+}
+#card-3:hover{
+  height: 450px;
+}
+#card-3 button{
+    background-color: teal;;
+}
+#card-3 button:hover{
+    background-color: rgb(231, 210, 171);
+    color: teal;
+}
+
+#card-4{
+    background-color: rgb(58 36 64);
+    padding: 0;
+    height: 300px;
+    transition: all 1.5s;
+    /* width: 50%; */
+}
+#card-4:hover{
+  height: 450px;
+}
+#card-4 button{
+    background-color: rgb(129 46 175);
+}
+#card-4 button:hover{
+    background-color: rgb(231, 210, 171);
+    color: rgb(129 46 175);
+}
+
+#card-5{
+    background-color: rgb(36 40 64);
+    padding: 0;
+    height: 300px;
+    /* width: 50%; */
+    transition: all 1.5s;
+  }
+  #card-5:hover{
+    height: 450px;
+  }
+#card-5 button{
+    background-color: teal;
+}
+#card-5 button:hover{
+    background-color: rgb(231, 210, 171);
+    color: teal;
+}
+
+#card-6{
+    background-color: rgb(58 36 64);
+    padding: 0;
+    height: 200px;
+    /* width: 50%; */
+    transition: all 1.5s;
+}
+#card-6:hover{
+  height: 450px;
+}
+#card-6 button{
+    background-color: rgb(129 46 175);
+  }
+#card-6 button:hover{
+    background-color: rgb(231, 210, 171);
+    color: rgb(129 46 175);
+  }
+  @media only screen and (max-width:1025px) {
+    .cards{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .left_cards{
+      width: 100%;
+      
+    }
+    .right_cards{
+      width: 100%;
+      /* margin-right: 2vw; */
+      margin-top: 0vw;
+    }
+    #card-1,#card-2,#card-3, #card-4, #card-5, #card-6 {
+      height: 57vw;
+    }
+    #card-4{
+     
+      margin-top: 0%;
+    }
+    
+    
+    #card-1:hover, #card-2:hover, #card-3:hover, #card-4:hover, #card-5:hover, #card-6:hover{
+      height: 90vw;
+    }
+    
+    .left_cards{
+      margin: 0vw;
+    }
+    .right_cards{
+      margin: 0vw;
+     
+    }
+    .card{
+      /* margin-top: 2vw; */
+      /* padding-right: 2vw; */
+      margin: 2vw;
+    }
+  }

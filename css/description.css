@@ -1,0 +1,7 @@
+.card .description {
+    display: none;
+padding: 10px;
+}
+.card .description:hover{
+    display: block;
+}

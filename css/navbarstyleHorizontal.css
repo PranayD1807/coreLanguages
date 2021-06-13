@@ -1,0 +1,89 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbarHorizontal{
+  display: block;
+}
+
+.navbar{
+    width: 98%;
+    margin-top: 10px;
+    margin: auto;
+    /* position: sticky; */
+    top: 1%;
+    right: 0%;
+    z-index: 20;
+}
+.navbarHorizontal .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+.navbarHorizontal .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    display: flex;
+    box-shadow: 3px -4px 59px 0px rgba(0, 0, 0, 0.75) inset;
+  }
+  
+.navbarHorizontal #home_nav{
+    background-color: black;
+    box-shadow: 10px 10px 198px 0px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 10px 10px 198px 0px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 10px 10px 198px 0px rgba(0,0,0,0.75) inset;
+  }
+.navbarHorizontal  .topnav .myLinksHorizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+.navbarHorizontal .topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+    box-shadow: 10px 10px 198px 0px rgba(3,188,244,0.75);
+-webkit-box-shadow: 10px 10px 198px 0px rgba(3,188,244,0.75);
+-moz-box-shadow: 10px 10px 198px 0px rgba(3,188,244,0.75);
+  }
+  
+.navbarHorizontal .topnav a.icon {
+    float: right;
+    align-self: flex-end;
+}
+
+.navbarHorizontal .topnav a:hover, .topnav #home_nav:hover {
+  background-color: black;
+  box-shadow: 10px 10px 198px 0px rgba(3,188,244,0.75);
+-webkit-box-shadow: 10px 10px 198px 0px rgba(3,188,244,0.75);
+-moz-box-shadow: 10px 10px 198px 0px rgba(3,188,244,0.75);
+  color: #03bcf4;
+}
+.navbarHorizontal .links{
+  width: 100%;
+}
+.navbarHorizontal .topnav .myLinksHorizontal .HorizontalCategories{
+  
+  align-self: flex-start;
+  
+}
+@media only screen and (max-width:1025px) {
+  .navbarHorizontal{
+    display: none;
+  }
+  
+  
+}
